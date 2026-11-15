@@ -78,7 +78,7 @@ body {
 /* HOME PAGE */
 .hero-section {
     min-height: 100vh;
-    background-image: url('assets/Home/Bahan\ Beranda/1.jpg');
+    background-image: url('assets/home/beranda/1.webp');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -118,7 +118,7 @@ body {
     left: -40px;
     right: -20px;
     bottom: -40px;
-    background-image: url('assets/Home/Bahan\ Beranda/2.png');
+    background-image: url('assets/home/beranda/2.webp');
     background-size: 160%;
     background-repeat: no-repeat;
     background-position: -15px 50px;
@@ -546,7 +546,7 @@ body {
     left: -30px;
     right: -30px;
     bottom: -30px;
-    background-image: url('assets/Galeri/Papan\ Foto.png');
+    background-image: url('assets/galeri/papan-foto.webp');
     background-size: cover;
     background-position: center;
     border-radius: 15px;

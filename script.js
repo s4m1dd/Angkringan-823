@@ -12,16 +12,16 @@ function updateGreeting() {
     // Determine greeting and weather based on time
     if (hours >= 5 && hours < 12) {
         greeting = 'Selamat Pagi';
-        weatherImage = 'assets/Home/Weather/pagi.png';
+        weatherImage = 'assets/home/weather/pagi.webp';
     } else if (hours >= 12 && hours < 15) {
         greeting = 'Selamat Siang';
-        weatherImage = 'assets/Home/Weather/siang.png';
+        weatherImage = 'assets/home/weather/siang.webp';
     } else if (hours >= 15 && hours < 18) {
         greeting = 'Selamat Sore';
-        weatherImage = 'assets/Home/Weather/sore.png';
+        weatherImage = 'assets/home/weather/sore.webp';
     } else {
         greeting = 'Selamat Malam';
-        weatherImage = 'assets/Home/Weather/malam.png';
+        weatherImage = 'assets/home/weather/malam.webp';
     }
     
     greetingElement.textContent = greeting;
@@ -48,15 +48,15 @@ function updateClock() {
 
 // Menu Image Changer with placeholder paths
 const menuImages = {
-    naci: 'assets/Produk/Menu/Naci.png',
-    holengan: 'assets/Produk/Menu/Holengan.png',
-    mwie: 'assets/Produk/Menu/Mwie.png',
-    copiee: 'assets/Produk/Menu/Copiee.png',
-    ess_gell: 'assets/Produk/Menu/Ess Gell.png',
-    copicop: 'assets/Produk/Menu/Copicop.png',
-    cate_catean: 'assets/Produk/Menu/Cate catean.png',
-    bakalan_ayam: 'assets/Produk/Menu/Bakalan Ayam.png',
-    ceapudd: 'assets/Produk/Menu/Ceapudd.png',
+    naci: 'assets/produk/menu/naci.webp',
+    holengan: 'assets/produk/menu/holengan.webp',
+    mwie: 'assets/produk/menu/mwie.webp',
+    copiee: 'assets/produk/menu/copiee.webp',
+    ess_gell: 'assets/produk/menu/ess-gell.webp',
+    copicop: 'assets/produk/menu/copicop.webp',
+    cate_catean: 'assets/produk/menu/cate-catean.webp',
+    bakalan_ayam: 'assets/produk/menu/bakalan-ayam.webp',
+    ceapudd: 'assets/produk/menu/ceapudd.webp',
 };
 
 function changeMenuImage(menuName) {
